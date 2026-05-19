@@ -14,9 +14,10 @@ import { Blocks, BookOpen, Users } from "lucide-react"
   name:"Community Book Sharing"
 },]
 
+
 export default function ToolKit() {
   return (
-    <div className="p-4 rounded-lg bg-amber-50 space-y-5">
+    <div className="p-4 rounded-lg h-50  bg-amber-50 space-y-5">
             <h3 className="text-lg font-semibold">
                 The Toolkit
             </h3>

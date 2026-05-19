@@ -11,7 +11,7 @@ export default function Herosection() {
          
         <section className="mt-20 grid lg:grid-cols-2 gap-4">
             <section className="flex gap-5 rounded-2xl px-8 py-10 lg:py-0 bg-fourth flex-col justify-center">
-               <section className="text-3xl lg:text-5xl text-white  font-semibold">
+               <section className="text-3xl flex flex-col gap-2 lg:text-5xl text-white  font-semibold">
                <h1>Connect Through Books.</h1> <h1>Grow Through Reading.</h1>
             </section>
              <p className="text-background">Access a curated world of digital books, shared by a community passionate about learning and storytelling.</p>

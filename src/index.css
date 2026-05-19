@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Shippori+Antique&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/geist";
 @plugin "tailwindcss-animate";
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -124,6 +126,8 @@
 
 @theme inline {
   --font-heading: var(--font-sans);
+  --font-alfa-slab-one: "Alfa Slab One", serif;
+  --font-shippori-antique: "Shippori Antique", serif;
   --font-sans: 'Geist Variable', sans-serif;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -216,5 +220,10 @@
 
   .hero {
     @apply bg-background;
+  }
+  .alfa-slab-one-regular {
+   font-family: "Alfa Slab One", serif;
+   font-weight: 400;
+   font-style: normal;
   }
 }
