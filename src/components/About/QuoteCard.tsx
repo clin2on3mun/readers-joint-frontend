@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react'
                   'The more that you read, the more things you will know.',
                   'Books open windows to the world and broaden our minds.'
                 ]
+                
 export default function QuoteCard() {
   let  [index, setIndex]  = useState<number>(0)
 
@@ -25,8 +26,8 @@ export default function QuoteCard() {
 
 
   return (
-    <div className="bg-fourth col-4 row-start-2 row-end-3 grid p-4  rounded-lg">
-           <p className="flex items-center text-white self-start gap-2"><Info /> <span>Quotes</span></p>
+    <div className="bg-fourth h-50 xl:col-4 xl:row-2  grid p-4  rounded-lg">
+           <p className="flex items-center text-white self-start gap-2"><Info className='animate-pulse' /> <span>Quotes</span></p>
             <p
         key={index}
         className="
